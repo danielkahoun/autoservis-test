@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoservis</title>
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+</head>
+
+<body class="has-background-light">
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">
+                    Autoservis
+                </p>
+                <p class="subtitle">
+                    Oprava vozidel Praha
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="container py-6">
+        <div class="block">
+            <h1 class="subtitle">Vozidla v servisu</h1>
+            <div class="columns is-multiline" id="vehicles">
+            </div>
+        </div>
+        <div class="block">
+            <h1 class="subtitle">Přidat vozidlo</h1>
+            <div class="field">
+                <label class="label">Značka</label>
+                <div class="control">
+                    <input type="text" class="input" placeholder="Značka">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Model</label>
+                <div class="control">
+                    <input type="text" class="input" placeholder="Model">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Rok výroby</label>
+                <div class="control">
+                    <input type="number" class="input" placeholder="Rok výroby">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Najeté kilometry</label>
+                <div class="control">
+                    <input type="number" class="input" placeholder="Najeté kilometry">
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <button class="button is-primary" onclick="addVehicle();">Přidat vozidlo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero is-dark">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="title is-4">O nás</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi similique dolor quam, ex
+                            quasi minima rerum ipsam recusandae veritatis nobis molestias mollitia voluptate hic iusto.
+                            Excepturi aliquam quasi ipsam nisi? At quidem provident blanditiis soluta. Ducimus
+                            reiciendis tempore mollitia earum, voluptate quasi aliquid numquam, asperiores repellat enim
+                            dicta deserunt explicabo rem sapiente facilis, ea nostrum eius ad. Omnis voluptates sequi
+                            tempora doloremque corrupti rerum nihil cum sit suscipit nemo, accusantium quisquam unde ea
+                            ex debitis ipsa itaque eius natus?</p>
+                        <button class="button is-light mt-5">Kontaktujte nás</button>
+                    </div>
+                    <div class="column">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Audi_A8_L_D5_IMG_0066.jpg/1280px-Audi_A8_L_D5_IMG_0066.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
